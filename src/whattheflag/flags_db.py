@@ -1,0 +1,35 @@
+FLAGS = {
+    "tar": {
+        "extract": {"short": "x", "description": "Extract files from an archive"},
+        "create": {"short": "c", "description": "Create a new archive"},
+        "list": {"short": "t", "description": "List archive contents"},
+        "verbose": {"short": "v", "description": "Show processed files"},
+        "gzip": {"short": "z", "description": "Filter archive through gzip"},
+        "bzip2": {"short": "j", "description": "Filter archive through bzip2"},
+        "xz": {"short": "J", "description": "Filter archive through xz"},
+        "file": {"short": "f", "description": "Specify archive filename"},
+        "directory": {"short": "C", "description": "Change to directory"},
+        "preserve_permissions": {
+            "short": "p",
+            "description": "Preserve file permissions",
+        },
+        "keep_old_files": {"short": "k", "description": "Keep existing files"},
+    },
+    "grep": {
+        "ignore_case": {"short": "i", "description": "Ignore case distinctions"},
+        "invert_match": {"short": "v", "description": "Select non-matching lines"},
+        "count": {"short": "c", "description": "Print count of matching lines"},
+        "line_number": {"short": "n", "description": "Show line numbers"},
+        "recursive": {"short": "r", "description": "Search directories recursively"},
+        "only_matching": {"short": "o", "description": "Show only matched parts"},
+        "extended_regexp": {"short": "E", "description": "Use extended regex"},
+        "fixed_strings": {
+            "short": "F",
+            "description": "Interpret pattern as fixed string",
+        },
+        "word_regexp": {"short": "w", "description": "Match whole words only"},
+        "before_context": {"short": "B", "description": "Print lines before match"},
+        "after_context": {"short": "A", "description": "Print lines after match"},
+        "context": {"short": "C", "description": "Print surrounding context lines"},
+    },
+}

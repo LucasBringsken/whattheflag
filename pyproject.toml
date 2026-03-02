@@ -1,0 +1,21 @@
+[project]
+name = "whattheflag"
+version = "0.1.0"
+authors = [{ name = "Lucas Bringsken", email = "kontakt@lucasbringsken.de" }]
+description = "Lightweight CLI tool for instantly explaining command-line flags without digging through man pages"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["rich>=13", "typer>=0.9"]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.scripts]
+whattheflag = "whattheflag.cli:app"
+
+[build-system]
+requires = ["uv_build >= 0.9.28, <0.10.0"]
+build-backend = "uv_build"
+
+
+[dependency-groups]
+dev = ["black>=26.1.0", "ruff>=0.15.0"]
