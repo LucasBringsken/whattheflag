@@ -1,8 +1,8 @@
 import typer
 
 from whattheflag.core import translate_long_flag, translate_short_flag
-from whattheflag.flags_db import FLAGS
 from whattheflag.output import display_flag_info, display_no_cmd, display_unknown_tool
+from whattheflag.utils import get_flags_for_tool
 
 app = typer.Typer(
     help="Lightweight CLI tool for instantly explaining command-line flags without digging through man pages",
@@ -22,7 +22,9 @@ def explain(
     tool = cmd[0]
     args = cmd[1:]
 
-    if tool not in FLAGS:
+    FLAGS = get_flags_for_tool(tool)
+
+    if not FLAGS:
         display_unknown_tool()
         raise typer.Exit()
 

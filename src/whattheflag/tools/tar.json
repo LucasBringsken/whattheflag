@@ -1,0 +1,13 @@
+{
+  "extract": {"short": "x", "description": "Extract files from an archive"},
+  "create": {"short": "c", "description": "Create a new archive"},
+  "list": {"short": "t", "description": "List archive contents"},
+  "verbose": {"short": "v", "description": "Show processed files"},
+  "gzip": {"short": "z", "description": "Filter archive through gzip"},
+  "bzip2": {"short": "j", "description": "Filter archive through bzip2"},
+  "xz": {"short": "J", "description": "Filter archive through xz"},
+  "file": {"short": "f", "description": "Specify archive filename"},
+  "directory": {"short": "C", "description": "Change to directory"},
+  "preserve_permissions": {"short": "p", "description": "Preserve file permissions"},
+  "keep_old_files": {"short": "k", "description": "Keep existing files"}
+}
