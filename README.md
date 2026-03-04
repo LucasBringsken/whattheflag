@@ -1,4 +1,8 @@
-# [whattheflag](https://github.com/LucasBringsken/whattheflag)
+<p align="center">
+  <a href="https://github.com/LucasBringsken/whattheflag">
+    <img src="docs/banner.png" alt="whattheflag banner"/>
+  </a>
+</p>
 
 [![PyPI](https://img.shields.io/pypi/v/whattheflag)](https://pypi.org/project/whattheflag/)
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
