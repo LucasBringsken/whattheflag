@@ -1,0 +1,9 @@
+{
+  "listen": {"short": "l", "description": "Listen mode"},
+  "port": {"short": "p", "description": "Specify local port"},
+  "verbose": {"short": "v", "description": "Verbose output"},
+  "udp": {"short": "u", "description": "Use UDP"},
+  "timeout": {"short": "w", "description": "Connection timeout"},
+  "keep_open": {"short": "k", "description": "Keep listening after connection"},
+  "zero_io": {"short": "z", "description": "Zero IO mode (scan ports)"}
+}

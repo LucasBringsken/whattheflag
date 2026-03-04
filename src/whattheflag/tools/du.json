@@ -1,0 +1,8 @@
+{
+  "human_readable": {"short": "h", "description": "Print sizes in human readable format"},
+  "summarize": {"short": "s", "description": "Display only total for each argument"},
+  "all": {"short": "a", "description": "Write counts for all files"},
+  "max_depth": {"short": null, "description": "Limit directory depth"},
+  "block_size": {"short": "B", "description": "Specify block size"},
+  "exclude": {"short": null, "description": "Exclude files matching pattern"}
+}

@@ -1,0 +1,8 @@
+{
+  "human_readable": {"short": "h", "description": "Print sizes in human readable format"},
+  "inodes": {"short": "i", "description": "List inode information"},
+  "type": {"short": "T", "description": "Print filesystem type"},
+  "all": {"short": "a", "description": "Include dummy filesystems"},
+  "block_size": {"short": "B", "description": "Specify block size"},
+  "total": {"short": null, "description": "Produce grand total"}
+}

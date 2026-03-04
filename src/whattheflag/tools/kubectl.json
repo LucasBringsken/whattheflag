@@ -1,0 +1,10 @@
+{
+  "namespace": {"short": "n", "description": "Specify namespace"},
+  "output": {"short": "o", "description": "Output format"},
+  "selector": {"short": "l", "description": "Label selector"},
+  "filename": {"short": "f", "description": "Filename for resource"},
+  "recursive": {"short": "R", "description": "Process directory recursively"},
+  "watch": {"short": "w", "description": "Watch for changes"},
+  "all_namespaces": {"short": "A", "description": "List across all namespaces"},
+  "kubeconfig": {"short": null, "description": "Path to kubeconfig file"}
+}

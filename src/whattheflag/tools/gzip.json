@@ -1,0 +1,11 @@
+{
+  "decompress": {"short": "d", "description": "Decompress file"},
+  "stdout": {"short": "c", "description": "Write output to stdout"},
+  "force": {"short": "f", "description": "Force overwrite"},
+  "keep": {"short": "k", "description": "Keep original files"},
+  "list": {"short": "l", "description": "List compressed file info"},
+  "recursive": {"short": "r", "description": "Operate recursively"},
+  "test": {"short": "t", "description": "Test compressed file"},
+  "verbose": {"short": "v", "description": "Verbose mode"},
+  "quiet": {"short": "q", "description": "Quiet mode"}
+}

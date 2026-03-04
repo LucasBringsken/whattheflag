@@ -1,0 +1,13 @@
+{
+  "name": {"short": null, "description": "Match file name"},
+  "type": {"short": null, "description": "Filter by file type"},
+  "size": {"short": null, "description": "Match file size"},
+  "mtime": {"short": null, "description": "Match modification time"},
+  "user": {"short": null, "description": "Match file owner"},
+  "group": {"short": null, "description": "Match group"},
+  "perm": {"short": null, "description": "Match permissions"},
+  "exec": {"short": null, "description": "Execute command"},
+  "delete": {"short": null, "description": "Delete files"},
+  "print": {"short": null, "description": "Print results"},
+  "print0": {"short": null, "description": "Print results null separated"}
+}

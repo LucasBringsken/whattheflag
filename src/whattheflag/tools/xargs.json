@@ -1,0 +1,9 @@
+{
+  "max_args": {"short": "n", "description": "Maximum arguments per command"},
+  "max_lines": {"short": "L", "description": "Use at most number of lines"},
+  "replace": {"short": "I", "description": "Replace placeholder in command"},
+  "null": {"short": "0", "description": "Input items separated by null"},
+  "max_procs": {"short": "P", "description": "Run processes in parallel"},
+  "no_run_if_empty": {"short": "r", "description": "Do not run if input empty"},
+  "verbose": {"short": "t", "description": "Print command before execution"}
+}

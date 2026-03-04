@@ -1,0 +1,9 @@
+{
+  "compact_output": {"short": "c", "description": "Compact JSON output"},
+  "raw_output": {"short": "r", "description": "Output raw strings"},
+  "slurp": {"short": "s", "description": "Read all inputs into array"},
+  "null_input": {"short": "n", "description": "Use null as input"},
+  "sort_keys": {"short": "S", "description": "Sort object keys"},
+  "arg": {"short": null, "description": "Pass variable to jq"},
+  "argjson": {"short": null, "description": "Pass JSON variable"}
+}

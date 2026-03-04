@@ -1,0 +1,12 @@
+{
+  "recurse_paths": {"short": "r", "description": "Travel the directory structure recursively"},
+  "junk_paths": {"short": "j", "description": "Do not store directory names"},
+  "delete": {"short": "d", "description": "Delete entries from zip archive"},
+  "move": {"short": "m", "description": "Move files into archive"},
+  "freshen": {"short": "f", "description": "Replace existing entries with newer files"},
+  "update": {"short": "u", "description": "Update entries if newer"},
+  "verbose": {"short": "v", "description": "Verbose output"},
+  "quiet": {"short": "q", "description": "Quiet mode"},
+  "compression_level": {"short": null, "description": "Set compression level"},
+  "exclude": {"short": "x", "description": "Exclude files matching pattern"}
+}

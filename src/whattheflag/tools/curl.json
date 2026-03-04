@@ -1,0 +1,60 @@
+{
+  "request": {"short": "X", "description": "Specify HTTP request method"},
+  "header": {"short": "H", "description": "Pass custom header to server"},
+  "data": {"short": "d", "description": "Send data in a POST request"},
+  "data-binary": {"short": null, "description": "Send binary data in POST request"},
+  "data-urlencode": {"short": null, "description": "Send URL-encoded data"},
+  "form": {"short": "F", "description": "Send multipart form data"},
+  "get": {"short": "G", "description": "Send data with GET request instead of POST"},
+
+  "output": {"short": "o", "description": "Write output to file"},
+  "remote-name": {"short": "O", "description": "Save file using remote filename"},
+  "remote-header-name": {"short": "J", "description": "Use filename from Content-Disposition header"},
+  "create-dirs": {"short": null, "description": "Create necessary local directories for output"},
+  "location": {"short": "L", "description": "Follow HTTP redirects"},
+  "max-redirs": {"short": null, "description": "Maximum number of redirects to follow"},
+
+  "user": {"short": "u", "description": "Server authentication username and password"},
+  "anyauth": {"short": null, "description": "Automatically select authentication method"},
+  "basic": {"short": null, "description": "Use HTTP Basic authentication"},
+  "digest": {"short": null, "description": "Use HTTP Digest authentication"},
+  "ntlm": {"short": null, "description": "Use NTLM authentication"},
+  "oauth2-bearer": {"short": null, "description": "Use OAuth2 Bearer token for authentication"},
+
+  "proxy": {"short": "x", "description": "Use specified proxy"},
+  "proxy-user": {"short": "U", "description": "Proxy authentication username and password"},
+  "socks5": {"short": null, "description": "Use SOCKS5 proxy"},
+  "noproxy": {"short": null, "description": "List of hosts that do not use proxy"},
+
+  "connect-timeout": {"short": null, "description": "Maximum time allowed for connection"},
+  "max-time": {"short": "m", "description": "Maximum time allowed for the entire operation"},
+  "retry": {"short": null, "description": "Retry request if transient error occurs"},
+  "retry-delay": {"short": null, "description": "Delay between retries"},
+  "limit-rate": {"short": null, "description": "Limit transfer speed"},
+
+  "verbose": {"short": "v", "description": "Make the operation more talkative"},
+  "silent": {"short": "s", "description": "Silent mode, do not show progress"},
+  "show-error": {"short": "S", "description": "Show error even when using silent mode"},
+  "fail": {"short": "f", "description": "Fail silently on HTTP errors"},
+  "include": {"short": "i", "description": "Include HTTP response headers in output"},
+  "head": {"short": "I", "description": "Fetch HTTP headers only"},
+
+  "insecure": {"short": "k", "description": "Allow insecure SSL connections"},
+  "cacert": {"short": null, "description": "Specify CA certificate file"},
+  "cert": {"short": "E", "description": "Client certificate file"},
+  "key": {"short": null, "description": "Private key file"},
+  "tlsv1": {"short": "1", "description": "Use TLS version 1.x or higher"},
+
+  "ipv4": {"short": "4", "description": "Resolve names to IPv4 addresses only"},
+  "ipv6": {"short": "6", "description": "Resolve names to IPv6 addresses only"},
+  "interface": {"short": null, "description": "Use network interface for request"},
+  "user-agent": {"short": "A", "description": "Specify User-Agent string"},
+
+  "range": {"short": "r", "description": "Retrieve a byte range from server"},
+  "upload-file": {"short": "T", "description": "Upload local file to server"},
+  "continue-at": {"short": "C", "description": "Resume transfer from given offset"},
+  "compressed": {"short": null, "description": "Request compressed response"},
+  "write-out": {"short": "w", "description": "Output custom information after transfer"},
+  "version": {"short": "V", "description": "Show curl version information"},
+  "help": {"short": "h", "description": "Show help for curl"}
+}

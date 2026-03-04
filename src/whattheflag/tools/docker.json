@@ -1,0 +1,11 @@
+{
+  "detach": {"short": "d", "description": "Run container in background"},
+  "publish": {"short": "p", "description": "Publish container ports"},
+  "env": {"short": "e", "description": "Set environment variable"},
+  "volume": {"short": "v", "description": "Bind mount volume"},
+  "interactive": {"short": "i", "description": "Keep STDIN open"},
+  "tty": {"short": "t", "description": "Allocate pseudo TTY"},
+  "name": {"short": null, "description": "Assign container name"},
+  "rm": {"short": null, "description": "Automatically remove container"},
+  "network": {"short": null, "description": "Connect container to network"}
+}

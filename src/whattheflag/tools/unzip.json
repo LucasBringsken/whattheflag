@@ -1,0 +1,11 @@
+{
+  "list": {"short": "l", "description": "List archive contents"},
+  "test": {"short": "t", "description": "Test archive integrity"},
+  "extract": {"short": "x", "description": "Extract files"},
+  "directory": {"short": "d", "description": "Extract into directory"},
+  "overwrite": {"short": "o", "description": "Overwrite existing files"},
+  "never_overwrite": {"short": "n", "description": "Never overwrite existing files"},
+  "quiet": {"short": "q", "description": "Quiet mode"},
+  "verbose": {"short": "v", "description": "Verbose output"},
+  "exclude": {"short": "x", "description": "Exclude files"}
+}

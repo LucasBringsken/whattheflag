@@ -1,0 +1,9 @@
+{
+  "version": {"short": null, "description": "Show git version"},
+  "help": {"short": null, "description": "Show help"},
+  "git_dir": {"short": null, "description": "Set repository directory"},
+  "work_tree": {"short": null, "description": "Set working tree"},
+  "bare": {"short": null, "description": "Treat repository as bare"},
+  "no_pager": {"short": null, "description": "Disable pager"},
+  "paginate": {"short": "p", "description": "Pipe output into pager"}
+}

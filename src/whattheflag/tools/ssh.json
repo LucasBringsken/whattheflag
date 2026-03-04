@@ -1,0 +1,10 @@
+{
+  "port": {"short": "p", "description": "Connect to specified port"},
+  "identity_file": {"short": "i", "description": "Use identity key file"},
+  "config": {"short": "F", "description": "Specify config file"},
+  "verbose": {"short": "v", "description": "Verbose mode"},
+  "quiet": {"short": "q", "description": "Quiet mode"},
+  "local_forward": {"short": "L", "description": "Local port forwarding"},
+  "remote_forward": {"short": "R", "description": "Remote port forwarding"},
+  "dynamic_forward": {"short": "D", "description": "Dynamic SOCKS proxy"}
+}

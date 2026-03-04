@@ -1,0 +1,9 @@
+{
+  "output_document": {"short": "O", "description": "Write documents to file"},
+  "continue": {"short": "c", "description": "Resume downloads"},
+  "recursive": {"short": "r", "description": "Download recursively"},
+  "quiet": {"short": "q", "description": "Quiet mode"},
+  "verbose": {"short": "v", "description": "Verbose mode"},
+  "timeout": {"short": "T", "description": "Set network timeout"},
+  "no_parent": {"short": null, "description": "Do not ascend to parent directory"}
+}

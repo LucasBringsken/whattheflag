@@ -1,0 +1,11 @@
+{
+  "expression": {"short": "e", "description": "Add script expression"},
+  "file": {"short": "f", "description": "Load script from file"},
+  "in_place": {"short": "i", "description": "Edit files in place"},
+  "quiet": {"short": "n", "description": "Suppress automatic printing"},
+  "regexp_extended": {"short": "E", "description": "Use extended regex"},
+  "separate": {"short": "s", "description": "Treat files separately"},
+  "unbuffered": {"short": "u", "description": "Use minimal buffering"},
+  "sandbox": {"short": null, "description": "Disable external commands"},
+  "follow_symlinks": {"short": null, "description": "Follow symlinks when editing"}
+}

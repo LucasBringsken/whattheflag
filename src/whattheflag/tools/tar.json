@@ -2,12 +2,20 @@
   "extract": {"short": "x", "description": "Extract files from an archive"},
   "create": {"short": "c", "description": "Create a new archive"},
   "list": {"short": "t", "description": "List archive contents"},
+  "append": {"short": "r", "description": "Append files to archive"},
+  "update": {"short": "u", "description": "Add files newer than archive"},
+  "diff": {"short": "d", "description": "Find archive differences"},
+  "delete": {"short": null, "description": "Delete files from archive"},
   "verbose": {"short": "v", "description": "Show processed files"},
   "gzip": {"short": "z", "description": "Filter archive through gzip"},
   "bzip2": {"short": "j", "description": "Filter archive through bzip2"},
   "xz": {"short": "J", "description": "Filter archive through xz"},
+  "auto_compress": {"short": "a", "description": "Automatically detect compression"},
   "file": {"short": "f", "description": "Specify archive filename"},
   "directory": {"short": "C", "description": "Change to directory"},
   "preserve_permissions": {"short": "p", "description": "Preserve file permissions"},
-  "keep_old_files": {"short": "k", "description": "Keep existing files"}
+  "keep_old_files": {"short": "k", "description": "Keep existing files"},
+  "strip_components": {"short": null, "description": "Strip leading path components"},
+  "exclude": {"short": null, "description": "Exclude files matching pattern"},
+  "exclude_from": {"short": "X", "description": "Read exclude patterns from file"}
 }

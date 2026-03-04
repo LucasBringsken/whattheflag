@@ -1,0 +1,9 @@
+{
+  "batch_mode": {"short": "b", "description": "Run in batch mode"},
+  "delay": {"short": "d", "description": "Set refresh delay"},
+  "iterations": {"short": "n", "description": "Number of iterations"},
+  "pid": {"short": "p", "description": "Monitor specific process"},
+  "user": {"short": "u", "description": "Show processes for user"},
+  "secure_mode": {"short": "s", "description": "Secure mode"},
+  "version": {"short": "v", "description": "Display version"}
+}

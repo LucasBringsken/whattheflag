@@ -1,0 +1,10 @@
+{
+  "file": {"short": "f", "description": "Read program from file"},
+  "field_separator": {"short": "F", "description": "Set field separator"},
+  "assign": {"short": "v", "description": "Assign variable before execution"},
+  "debug": {"short": "D", "description": "Enable debugging"},
+  "lint": {"short": null, "description": "Warn about questionable constructs"},
+  "posix": {"short": null, "description": "Enable POSIX compatibility"},
+  "traditional": {"short": null, "description": "Use traditional awk behavior"},
+  "profile": {"short": null, "description": "Generate profiling output"}
+}

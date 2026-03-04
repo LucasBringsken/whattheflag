@@ -1,35 +1,49 @@
-from .utils import get_flags_for_tool
+FlagInfo = tuple[str, str, str]
 
 
-def translate_long_flag(tool: str, flag: str) -> tuple[str, str]:
-    flag = flag.split("=")[0]  # Remove any value assignments
+def translate_long_flag(flags: dict[str, dict[str, str]], flag: str) -> FlagInfo:
+    flag = flag.split("=")[0]
 
-    FLAGS = get_flags_for_tool(tool)
-
-    if FLAGS and flag in FLAGS:
-        description = FLAGS[flag]["description"]
-        return ("--" + flag, description)
+    if flags and flag in flags:
+        description = flags[flag]["description"]
+        short = flags[flag].get("short")
+        return (f"-{short}" if short else "", "--" + flag, description)
     else:
-        return ("--" + flag, "[red]unknown flag[/red]")
+        return ("", "--" + flag, "[red]unknown flag[/red]")
 
 
-def translate_short_flag(tool: str, flag: str) -> list[tuple[str, str, str]]:
+def translate_short_flag(
+    flags: dict[str, dict[str, str]],
+    flag: str,
+) -> list[FlagInfo]:
     output = []
     for f in flag:
-        long, description = find_by_short(tool, f)
-
-        if long:
-            output.append(("-" + f, "--" + long, description))
+        long_flag, description = find_by_short(flags, f)
+        if long_flag:
+            output.append(("-" + f, "--" + long_flag, description))
         else:
             output.append(("-" + f, "", description))
 
     return output
 
 
-def find_by_short(tool: str, short_flag: str):
-    FLAGS = get_flags_for_tool(tool)
-
-    for long_name, data in FLAGS.items():
+def find_by_short(flags: dict[str, dict[str, str]], short_flag: str) -> tuple[str, str]:
+    for long_name, data in flags.items():
         if data["short"] == short_flag:
             return long_name, data["description"]
     return None, "[red]unknown flag[/red]"
+
+
+def get_all_flags_info(flags: dict[str, dict[str, str]]) -> list[FlagInfo]:
+    output = []
+
+    for long_flag, data in sorted(flags.items()):
+        short = data.get("short")
+        description = data.get("description", "")
+
+        short_flag = f"-{short}" if short else ""
+        long_flag = f"--{long_flag}"
+
+        output.append((short_flag, long_flag, description))
+
+    return output

@@ -1,0 +1,8 @@
+{
+  "inplace": {"short": "i", "description": "Edit files in place"},
+  "pretty_print": {"short": "P", "description": "Pretty print YAML"},
+  "yaml_output": {"short": "y", "description": "Output YAML"},
+  "json_output": {"short": "j", "description": "Output JSON"},
+  "null_input": {"short": "n", "description": "Use null input"},
+  "from_file": {"short": "f", "description": "Load expression from file"}
+}

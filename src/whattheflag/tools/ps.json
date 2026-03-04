@@ -1,0 +1,10 @@
+{
+  "all": {"short": "A", "description": "Select all processes"},
+  "every": {"short": "e", "description": "Select every process"},
+  "full_format": {"short": "f", "description": "Full format listing"},
+  "user_format": {"short": "u", "description": "Display user oriented format"},
+  "forest": {"short": null, "description": "Display process tree"},
+  "pid": {"short": "p", "description": "Select by process ID"},
+  "tty": {"short": "t", "description": "Select by terminal"},
+  "sort": {"short": null, "description": "Sort output"}
+}
