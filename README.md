@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/LucasBringsken/whattheflag">
-    <img src="docs/banner.png" alt="whattheflag banner"/>
+    <img src="https://raw.githubusercontent.com/LucasBringsken/whattheflag/main/docs/banner.png" alt="whattheflag banner"/>
   </a>
 </p>
 

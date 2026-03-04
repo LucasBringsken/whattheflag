@@ -1,6 +1,6 @@
 [project]
 name = "whattheflag"
-version = "0.1.0"
+version = "0.1.2"
 authors = [{ name = "Lucas Bringsken", email = "kontakt@lucasbringsken.de" }]
 description = "Lightweight CLI tool for instantly explaining command-line flags without digging through man pages"
 readme = "README.md"
